@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Big+Shoulders+Display:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Lexend+Deca:100,200,300,regular,500,600,700,800,900);
+
+main {
+margin: auto;
+width: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background-color: hsl(0, 0%, 95%);
+} 
+
+.sedan{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: hsl(31, 77%, 52%); 
+    padding: 40px;
+    height: 320px;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+    height: 320px;
+}
+
+.luxury{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    height: 320px;
+}
+
+h1{    
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;    
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 150px;
+}
+
+.sedbut{
+    margin-top: 20px;
+    background: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%); 
+    padding: auto;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 25px;
+    }
+
+.sedbut:hover{
+background: transparent;
+border: 2px solid white;
+color:white;
+}
+
+.suvbut{
+    margin-top: 20px;
+    background: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 25px;
+}
+
+.suvbut:hover{
+    background: transparent;
+    border: 2px solid white;
+    color:white;
+    }
+
+.luxbut{
+    margin-top: 20px;
+    background: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 25px;
+}
+
+.luxbut:hover{
+    background: transparent;
+    border: 2px solid white;
+    color:white;
+    }
